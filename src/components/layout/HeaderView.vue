@@ -21,12 +21,51 @@
         -->
 
         <b-nav-item-dropdown text="BootStrap" right>
-          <b-dropdown-item href="/bs1">Sample1</b-dropdown-item>
-          <b-dropdown-item href="/bs2">Sample2</b-dropdown-item>
-          <b-dropdown-item href="/bs3">Sample3</b-dropdown-item>
-          <b-dropdown-item href="/bs4">Sample4</b-dropdown-item>
+          <b-dropdown-item href="/bs1">BootStrap1</b-dropdown-item>
+          <b-dropdown-item href="/bs2">BootStrap2</b-dropdown-item>
+          <b-dropdown-item href="/bs3">BootStrap3</b-dropdown-item>
+          <b-dropdown-item href="/bs4">BootStrap4</b-dropdown-item>
+          <b-dropdown-item href="/bs5">BootStrap5</b-dropdown-item>
+          <b-dropdown-item href="/bs6">BootStrap6</b-dropdown-item>
         </b-nav-item-dropdown>
-
+        <b-nav-item-dropdown text="Input" right>
+          <b-dropdown-item href="/in1">Input01</b-dropdown-item>
+          <b-dropdown-item href="/in2">Input02</b-dropdown-item>
+          <b-dropdown-item href="/in3">Input03</b-dropdown-item>
+          <b-dropdown-item href="/in4">Input04</b-dropdown-item>
+          <b-dropdown-item href="/in5">Input05</b-dropdown-item>
+          <b-dropdown-item href="/in6">Input06</b-dropdown-item>
+          <b-dropdown-item href="/in7">Input07</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Cal" right>
+          <b-dropdown-item href="/ca1">Cal1</b-dropdown-item>
+          <b-dropdown-item href="/ca2">Cal2</b-dropdown-item>
+          <b-dropdown-item href="/ca3">Cal3</b-dropdown-item>
+          <b-dropdown-item href="/ca4">Cal4</b-dropdown-item>
+          <b-dropdown-item href="/ca5">Cal5</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Tag" right>
+          <b-dropdown-item href="/ta1">Tag1</b-dropdown-item>
+          <b-dropdown-item href="/ta2">Tag2</b-dropdown-item>
+          <b-dropdown-item href="/ta3">Tag3</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Carousel" right>
+          <b-dropdown-item href="/cr1">Carousel1</b-dropdown-item>
+          <b-dropdown-item href="/cr2">Carousel2</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Embed" right>
+          <b-dropdown-item href="/em1">Embed1</b-dropdown-item>
+          <b-dropdown-item href="/em2">Embed2</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Sel" right>
+          <b-dropdown-item href="/se1">Sel1</b-dropdown-item>
+          <b-dropdown-item href="/se2">Sel2</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Text" right>
+          <b-dropdown-item href="/te1">Text1</b-dropdown-item>
+          <b-dropdown-item href="/te2">Text2</b-dropdown-item>
+        </b-nav-item-dropdown>
+ 
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->
           <template #button-content>
