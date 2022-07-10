@@ -65,6 +65,13 @@
           <b-dropdown-item href="/te1">Text1</b-dropdown-item>
           <b-dropdown-item href="/te2">Text2</b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Axios" right>
+          <b-dropdown-item href="/ax1">Axios1</b-dropdown-item>
+          <b-dropdown-item href="/ax2">Axios2</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="MiniPrj" right>
+          <b-dropdown-item href="/crypto1">Crypto1</b-dropdown-item>
+        </b-nav-item-dropdown>
  
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->

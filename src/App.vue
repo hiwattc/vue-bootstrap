@@ -13,7 +13,10 @@
       <router-link to="/ca1">Cal1</router-link>|
       <router-link to="/ca2">Cal2</router-link>|
       <router-link to="/cr1">Carousel1</router-link>|
-      <router-link to="/cr2">Carousel2</router-link>
+      <router-link to="/cr2">Carousel2</router-link>|
+      <router-link to="/ax1">Axios1</router-link>|
+      <router-link to="/ax2">Axios2</router-link>|
+      <router-link to="/crypto1">Crypto</router-link>|
     </nav>
     <router-view/>
   </div>
