@@ -72,6 +72,9 @@
         <b-nav-item-dropdown text="MiniPrj" right>
           <b-dropdown-item href="/crypto1">Crypto1</b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Json" right>
+          <b-dropdown-item href="/json1">Crypto1</b-dropdown-item>
+        </b-nav-item-dropdown>
  
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->

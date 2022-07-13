@@ -50,7 +50,8 @@ const routes = [
   {    path: '/te2',    name: 'te2',   component: () => import('../views/Text2.vue')   },
   {    path: '/ax1',    name: 'ax1',   component: () => import('../views/Axios1.vue')   },
   {    path: '/ax2',    name: 'ax2',   component: () => import('../views/Axios2.vue')   },
-  {    path: '/crypto1',    name: 'crypto1',   component: () => import('../components/crypto/CryptoApp.vue')   }
+  {    path: '/crypto1',    name: 'crypto1',   component: () => import('../components/crypto/CryptoApp.vue')   },
+  {    path: '/json1',    name: 'json1',   component: () => import('../views/Json1.vue')   }
 ]
 
 const router = new VueRouter({
