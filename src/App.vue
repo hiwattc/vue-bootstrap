@@ -17,6 +17,7 @@
       <router-link to="/ax1">Axios1</router-link>|
       <router-link to="/ax2">Axios2</router-link>|
       <router-link to="/crypto1">Crypto</router-link>|
+      <router-link to="/table1">Table1</router-link>|
     </nav>
     <router-view/>
   </div>
