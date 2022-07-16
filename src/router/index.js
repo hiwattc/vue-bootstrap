@@ -52,7 +52,12 @@ const routes = [
   {    path: '/ax2',    name: 'ax2',   component: () => import('../views/Axios2.vue')   },
   {    path: '/crypto1',    name: 'crypto1',   component: () => import('../components/crypto/CryptoApp.vue')   },
   {    path: '/json1',    name: 'json1',   component: () => import('../views/Json1.vue')   },
-  {    path: '/table1',    name: 'table1',   component: () => import('../views/Table1.vue')   }
+  {    path: '/table1',    name: 'table1',   component: () => import('../views/Table1.vue')   },
+  {    path: '/table2',    name: 'table2',   component: () => import('../views/Table1.vue')   },
+  {    path: '/excel1',    name: 'excel1',   component: () => import('../views/Excel1.vue')   },
+  {    path: '/excel2',    name: 'excel2',   component: () => import('../views/Excel2.vue')   },
+  {    path: '/excel3',    name: 'excel3',   component: () => import('../views/Excel3.vue')   },
+  {    path: '/excel4',    name: 'excel4',   component: () => import('../views/Excel4.vue')   }
 ]
 
 const router = new VueRouter({
