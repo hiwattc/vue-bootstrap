@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 # Hello Hola!
+# Hello Hola!
 # vue-bootstrap
 =======
 # test
