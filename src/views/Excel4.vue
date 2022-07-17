@@ -30,7 +30,7 @@ export default {
   created() {
       var vm = this;
       // promise 기반 객체
-      axios.get('https://jsonplaceholder.typicode.com/photos')
+      axios.get('https://jsonplaceholder.typicode.com/users')
       .then(function(response){
         console.log(response);
         vm.datas = response.data;
