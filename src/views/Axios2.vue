@@ -1,9 +1,8 @@
 <template>
   <div>
-  	<div v-for="user in users">
-    <h5><a v-bind:href="user.url">{{user.title}}</a></h5>
-    <p>{{user}}</p>
-    </div>
+      <div v-for="user in users" v-bind:key="user.id">
+      <h5>{{user.name}}</h5>
+      </div>
   </div>
 </template>
 
@@ -19,7 +18,7 @@ export default {
   created() {
     var vm = this;
     // promise 기반 객체
-    axios.get('https://api.hnpwa.com/v0/news/1.json')
+    axios.get('https://jsonplaceholder.typicode.com/users')
     .then(function(response){
       console.log(response);
       vm.users = response.data;

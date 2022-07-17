@@ -18,6 +18,11 @@
       <router-link to="/ax2">Axios2</router-link>|
       <router-link to="/crypto1">Crypto</router-link>|
       <router-link to="/table1">Table1</router-link>|
+      <router-link to="/Excel1">Excel1</router-link>|
+      <router-link to="/Excel2">Excel2</router-link>|
+      <router-link to="/Excel3">Excel3</router-link>|
+      <router-link to="/Excel4">Excel4</router-link>|
+      <router-link to="/Excel5">Excel5</router-link>|
     </nav>
     <router-view/>
   </div>

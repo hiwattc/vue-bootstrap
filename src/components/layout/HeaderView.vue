@@ -77,6 +77,14 @@
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Table" right>
           <b-dropdown-item href="/table1">Table1</b-dropdown-item>
+          <b-dropdown-item href="/table2">Table2</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Excel" right>
+          <b-dropdown-item href="/excel1">Excel1</b-dropdown-item>
+          <b-dropdown-item href="/excel2">Excel2</b-dropdown-item>
+          <b-dropdown-item href="/excel3">Excel3</b-dropdown-item>
+          <b-dropdown-item href="/excel4">Excel4</b-dropdown-item>
+          <b-dropdown-item href="/excel5">Excel5</b-dropdown-item>
         </b-nav-item-dropdown>
  
         <b-nav-item-dropdown right>
