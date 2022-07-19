@@ -5,6 +5,13 @@
       <h5>{{data.title}}</h5>
       </div>
        -->
+    <b-input-group size="sm" class="mb-2">
+      <b-input-group-prepend is-text>
+        <b-icon icon="search" @click="search"></b-icon>
+      </b-input-group-prepend>
+      <b-form-input type="search" placeholder="Search terms" v-model="srchStr" @keydown.enter="search"></b-form-input>
+    </b-input-group>
+
     <div>
       <button @click="search">Search</button>
       <button @click="makeExcelFile">Excel</button>
@@ -49,11 +56,13 @@ export default {
           '/todos',
           '/users'
         ],
-      apikind: ''
+      apikind: '',
+      srchStr: 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&sparkline=false'
     }
   },
   created() {
       var vm = this;
+
       // promise 기반 객체
       /*
       /posts	100 posts
@@ -84,7 +93,11 @@ export default {
       var vm = this;
       var urlBaseStr = "https://jsonplaceholder.typicode.com";      
       //alert(urlBaseStr+this.apikind);
-      axios.get(urlBaseStr+this.apikind)
+      if (this.srchStr == ""){
+        this.srchStr = urlBaseStr+this.apikind;
+      }
+      //alert(this.srchStr);
+      axios.get(this.srchStr)
       .then(function(response){
         console.log(response);
         vm.datas = response.data;
