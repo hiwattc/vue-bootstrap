@@ -22,7 +22,7 @@
         id="table-style-variant"
         v-model="apikind"
         :options="apikinds"
-        @change="search"
+        @change="searchCombo"
       >
         <template #first>
           <option value="">-- None --</option>
@@ -98,6 +98,19 @@ export default {
       }
       //alert(this.srchStr);
       axios.get(this.srchStr)
+      .then(function(response){
+        console.log(response);
+        vm.datas = response.data;
+      })
+      .catch(function(error){
+        console.log(error);
+      })
+    },
+    searchCombo() {
+      var vm = this;
+      var urlBaseStr = "https://jsonplaceholder.typicode.com";      
+      //alert(urlBaseStr+this.apikind);
+      axios.get(urlBaseStr+this.apikind)
       .then(function(response){
         console.log(response);
         vm.datas = response.data;

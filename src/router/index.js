@@ -58,7 +58,8 @@ const routes = [
   {    path: '/excel2',    name: 'excel2',   component: () => import('../views/Excel2.vue')   },
   {    path: '/excel3',    name: 'excel3',   component: () => import('../views/Excel3.vue')   },
   {    path: '/excel4',    name: 'excel4',   component: () => import('../views/Excel4.vue')   },
-  {    path: '/excel5',    name: 'excel5',   component: () => import('../views/Excel5.vue')   }
+  {    path: '/excel5',    name: 'excel5',   component: () => import('../views/Excel5.vue')   },
+  {    path: '/esm1',    name: 'esm1',   component: () => import('../views/EsmUtil1.vue')   }
 ]
 
 const router = new VueRouter({

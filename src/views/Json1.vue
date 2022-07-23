@@ -1,6 +1,6 @@
 <template>
   <div>
-  	<div v-for="rowdata in jsondata">
+  	<div v-for="rowdata in jsondata" v-bind:key="rowdata.title">
     <h3><a v-bind:href="rowdata.homepage">{{rowdata.title}}</a></h3>
     <h3>{{rowdata.release_date}}</h3>
     

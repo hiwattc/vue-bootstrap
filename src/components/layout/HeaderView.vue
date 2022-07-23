@@ -86,6 +86,10 @@
           <b-dropdown-item href="/excel4">Excel4</b-dropdown-item>
           <b-dropdown-item href="/excel5">Excel5</b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="ESM" right>
+          <b-dropdown-item href="/esm1">EsmUtil1</b-dropdown-item>
+          <b-dropdown-item href="/esm2">EsmUtil2</b-dropdown-item>
+        </b-nav-item-dropdown>
  
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->
