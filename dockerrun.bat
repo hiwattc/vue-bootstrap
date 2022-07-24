@@ -1,0 +1,1 @@
+docker run -it -p 8080:8080 --rm --name dockerize-vuejs-app-1 hiwatt/vuejs

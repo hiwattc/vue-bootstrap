@@ -90,6 +90,9 @@
           <b-dropdown-item href="/esm1">EsmUtil1</b-dropdown-item>
           <b-dropdown-item href="/esm2">EsmUtil2</b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="LifeCycle" right>
+          <b-dropdown-item href="/lifecycle1">LifeCycle1</b-dropdown-item>
+        </b-nav-item-dropdown>
  
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->

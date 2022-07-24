@@ -23,6 +23,8 @@
       <router-link to="/Excel3">Excel3</router-link>|
       <router-link to="/Excel4">Excel4</router-link>|
       <router-link to="/Excel5">Excel5</router-link>|
+      <router-link to="/Excel6">Excel6</router-link>|
+      <router-link to="/lifecycle1">LifeCycle1</router-link>|
     </nav>
     <router-view/>
   </div>
