@@ -103,9 +103,23 @@
               Details via check
             </b-form-checkbox>
           </template>      
+          <template #cell(company)="row">
+            <b-button size="sm" @click="row.toggleDetails" class="mr-2">
+              {{ row.detailsShowing ? 'Hide' : 'Show'}} Details
+            </b-button>
+
+            <!-- As `row.showDetails` is one-way, we call the toggleDetails function on @change -->
+            <b-form-checkbox v-model="row.detailsShowing" @change="row.toggleDetails">
+              Details via check
+            </b-form-checkbox>
+          </template>      
+
           <template #row-details="row">
             <!--<b-table hover :items="datas"> --> <!--OK-->
-            <!--<b-table hover :items="row.item.address"></b-table>--><!--NOK-->
+            <b-table hover :items="[row.item.address]"></b-table>
+            <b-table hover :items="[row.item.company]"></b-table>
+
+            <!--
             <b-card>
               <b-row class="mb-2">
                 <b-col sm="3" class="text-sm-right"><b>Name:</b></b-col>
@@ -130,6 +144,7 @@
 
               <b-button size="sm" @click="row.toggleDetails">Hide Details</b-button>
             </b-card>
+            -->
 
             <b-button size="sm" @click="row.toggleDetails">Hide Details</b-button>
           </template>
@@ -155,6 +170,7 @@ export default {
   data() {
           return {
             datas: [],
+            singleRow: [],
             tableVariants: [
               'primary',
               'secondary',
